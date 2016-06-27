@@ -14,6 +14,6 @@ CI原版代码中大量使用了魔术方法，尽量不要使用魔术方法非
 i3 4核 8G php7 event.so 环境下，裸跑workeman http协议请求能达到11W/s
 CI-worker简易逻辑，仅route获取get，post，header等数据测试结果在8.5W/s。
 秒杀CI框架。
-另外为了测试workerman http解析时效率问题，用swoole框架进行的对比发现swoole的http服务器性能为10W/s还略不如。
+另外为了测试workerman http解析时效率问题，用swoole框架进行的对比发现swoole的http服务器性能为10W/s还略不如workerman。
 
   
